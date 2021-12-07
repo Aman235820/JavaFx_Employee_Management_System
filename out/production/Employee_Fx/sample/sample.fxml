@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="941.0" style="-fx-background-color: #F8F8FF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="signbtn" layoutX="690.0" layoutY="328.0" mnemonicParsing="false" onAction="#signin" prefHeight="48.0" prefWidth="126.0" style="-fx-background-color: #7CFC00;" text="Sign-in" textFill="#003eff">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow>
+               <input>
+                  <Reflection />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Button fx:id="logbtn" layoutX="194.0" layoutY="328.0" mnemonicParsing="false" onAction="#login" prefHeight="48.0" prefWidth="126.0" style="-fx-background-color: #00FFFF;" text="Login" textFill="#000dff">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow>
+               <input>
+                  <Reflection />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <Label layoutX="174.0" layoutY="253.0" prefHeight="39.0" prefWidth="168.0" text=" User Login" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="Serif Regular" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="638.0" layoutY="249.0" prefHeight="47.0" prefWidth="248.0" text=" User Registration" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="Serif Regular" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="435.0" layoutY="590.0" prefHeight="39.0" prefWidth="106.0" text="Copyright to AEMS" textFill="#071bf7" />
+
+      <Hyperlink layoutX="577.0" layoutY="566.0" text="Facebook" />
+      <Hyperlink layoutX="469.0" layoutY="566.0" text="Twitter" />
+      <Label contentDisplay="TOP" graphicTextGap="5.0" layoutX="172.0" layoutY="24.0" prefHeight="150.0" prefWidth="706.0" text="Aman's Employee Management System" textAlignment="CENTER" textFill="#c800ff" AnchorPane.rightAnchor="62.60000000000002">
+         <font>
+            <Font name="Times New Roman Bold" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="421.0" layoutY="465.0" prefHeight="32.0" prefWidth="139.0" text="Follow Us On :  ">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="337.0" layoutY="566.0" text="Instagram" />
+      <ImageView fitHeight="213.0" fitWidth="232.0" layoutX="393.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/emplogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="470.0" layoutY="504.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/download.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="343.0" layoutY="504.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Instagram-logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="582.0" layoutY="504.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/fb.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="-6.0" prefHeight="631.0" prefWidth="126.0" style="-fx-background-color: black;" />
+      <HBox layoutX="120.0" prefHeight="24.0" prefWidth="822.0" style="-fx-background-color: #696969;" />
+      <VBox layoutX="908.0" layoutY="24.0" prefHeight="607.0" prefWidth="34.0" style="-fx-background-color: #D3D3D3;" />
+     
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>
